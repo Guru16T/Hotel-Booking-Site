@@ -1,4 +1,4 @@
-import "./metting.css"
+import "./Metting.css"
 import meetHall from "../assets/meetHall.webp"
 import meet1 from "../assets/meet1.webp"
 import meet2 from '../assets/meet2.webp'
