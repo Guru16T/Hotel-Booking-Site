@@ -1,0 +1,55 @@
+.menu-overlay {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f2c5cc, #f0d3d9);
+  color: #3e1b2a;
+}
+
+.overlay-list-big li {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.overlay-list-small li {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.menu-overlay p {
+  font-size: 14px;
+}
+
+.menu-overlay a,
+.overlay-list-big li,
+.overlay-list-small li {
+  cursor: pointer;
+}
+
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;                 /* full screen */
+  z-index: 1050;
+  background: linear-gradient(to right, #f2c5cc, #f0d3d9);
+  color: #3e1b2a;
+  overflow-y: auto;
+}
+
+/* top-right X button */
+.btn-close-overlay {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  color: #3e1b2a;
+}
+
+/* .btn-close-overlay:hover{
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+} */

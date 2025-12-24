@@ -1,0 +1,19 @@
+.btn-outline-offer {
+  border-radius: 2 !important;
+  border-color: lightsalmon !important;
+  color: #4a1c26 !important;
+  background-color: lightsalmon !important;
+  font-size: 14px !important;
+}
+
+.btn-outline-offer2{
+    border-radius: 2 !important;
+  border-color: lightsalmon !important;
+  color: #4a1c26 !important;
+    font-size: 14px !important;
+}
+
+.btn-outline-offer2:hover {
+  background-color: lightsalmon !important;
+  border-color: lightsalmon !important;
+}

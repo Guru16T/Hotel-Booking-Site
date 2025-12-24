@@ -1,0 +1,40 @@
+.brexk-bg{
+    background-color: #401C26;
+    width: 50%;
+    height: 100vh;
+}
+
+.break-img{
+    background-image: url("../assets/break.webp");
+    object-fit: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+.break-font{
+      font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+.break-size{
+    font-size: 70px !important;
+}
+
+.break-time{
+    color: #F6CFDD;
+}
+
+.break-bg{
+    background-color:  #f4dcd9;
+}
+
+*{
+    color:  #2b1b1b;
+}
+
+.break-btn{
+    border-color: lightsalmon  !important;
+}
+
+.break-btn:hover{
+    background-color: lightsalmon;
+}

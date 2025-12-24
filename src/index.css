@@ -1,0 +1,349 @@
+#featureCarousel {
+  position: relative;
+}
+
+.button-abs {
+  position: absolute;
+  top: 10px;          
+  z-index: 5;         
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.side-icon{
+    background-color: white;
+    color: black;
+}
+ 
+
+.hotel-select {
+
+  border-radius: 6px;
+
+  padding: 10px;
+
+  font-size: 14px;
+
+}
+ 
+/* Date cards */
+
+.date-card {
+
+  flex: 1;
+
+  padding: 18px 10px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  text-align: center;
+
+}
+ 
+.peach-card {
+
+  background: #e9c8b6;
+
+}
+ 
+.white-card {
+
+  background: #ffffff;
+
+}
+ 
+.label-text {
+
+  font-size: 13px;
+
+  color: #5d4744;
+
+}
+ 
+.date-number {
+
+  font-size: 40px;
+
+  font-weight: 700;
+
+  margin: 6px 0 0;
+
+  line-height: 1;
+
+}
+ 
+.date-month {
+
+  font-size: 14px;
+
+  margin: 4px 0 0;
+
+  color: #4b3c3c;
+
+}
+ 
+.arrow {
+
+  font-size: 16px;
+
+  display: block;
+
+  margin-top: 8px;
+
+}
+ 
+
+.guest-box {
+
+  display: flex;
+
+  align-items: center;
+
+}
+ 
+.circle-btn {
+
+  width: 34px;
+
+  height: 34px;
+
+  border-radius: 50%;
+
+  border: none;
+
+  background: #ffffff;
+
+  font-size: 20px;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+}
+ 
+.circle-btn:active {
+
+  transform: scale(0.95);
+
+}
+ 
+.link-text {
+
+  text-decoration: underline;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  color: #3b2826;
+
+}
+ 
+.price-btn {
+
+  background: #e7a782;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+}
+ 
+
+.calendar-wrapper {
+
+  background: transparent;
+  position: absolute;           /* so it floats over hero image */
+  top: 160px;                    /* tweak to your design */
+  left: 120px; 
+
+}
+ 
+.calendar-inner {
+
+  background: #ffffff;
+
+  border-radius: 16px;
+
+  padding: 20px 30px;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+
+  gap: 60px;
+
+}
+ 
+/* Month block */
+
+.month-block {
+
+  min-width: 280px;
+
+}
+ 
+.month-header {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-bottom: 12px;
+
+}
+ 
+.month-title {
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+}
+ 
+.nav-arrow,
+
+.nav-arrow-placeholder {
+
+  width: 32px;
+
+  text-align: center;
+
+}
+ 
+.nav-arrow {
+
+  border: none;
+
+  background: none;
+
+  font-size: 24px;
+
+  cursor: pointer;
+
+}
+ 
+/* Days row */
+
+.day-names-row {
+
+  display: grid;
+
+  grid-template-columns: repeat(7, 1fr);
+
+  font-size: 13px;
+
+  margin-bottom: 6px;
+
+  color: #7c6a65;
+
+}
+ 
+.day-name {
+
+  text-align: center;
+
+}
+ 
+/* Days grid */
+
+.days-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(7, 1fr);
+
+  row-gap: 8px;
+
+}
+ 
+.day-cell.empty {
+
+  height: 36px;
+
+}
+ 
+/* Day buttons */
+
+.day-button {
+
+  width: 36px;
+
+  height: 36px;
+
+  border-radius: 999px;
+
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  margin: 0 auto;
+
+  font-size: 15px;
+
+}
+ 
+.day-button:hover {
+
+  background: #f5d7c2;
+
+}
+ 
+/* Range styles */
+
+.day-button.in-range {
+
+  background: #f7d8c4;
+
+}
+ 
+.day-button.selected-start,
+
+.day-button.selected-end {
+
+  background: #f3b99b;
+
+  font-weight: 600;
+
+}
+ 
+/* Base styles for booking wrapper */
+.booking-section-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex; /* needed for d-flex */
+  gap: 40px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Slide-in states */
+.booking-open {
+  transform: translateX(0%);
+}
+
+.booking-closed {
+  transform: translateX(-120%);
+}
+
+/* Responsive tweak */
+@media (max-width: 992px) {
+  .booking-section-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

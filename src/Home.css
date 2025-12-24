@@ -1,0 +1,286 @@
+.bg-color {
+  background-color: #401C26;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.web{
+  width: 250px;
+  height: auto;
+}
+
+.fill-current {
+  fill: #F6CFDD !important;
+}
+
+.fill-color {
+  color: #F6CFDD !important;
+  font-size: 18px;
+}
+
+.hot-color{
+  color: #F6CFDD !important;
+}
+
+.w-full {
+  width: 240px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+.home-img {
+  width: 100%;
+  height: 90%;
+}
+
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 27%;
+}
+
+.hero-title {
+  font-family: 'MASLITE', sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #F6CFDD !important;
+}
+
+.hero-btn {
+  border-color: white !important;
+  color: white !important;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.hero-right {
+  background: #f7e8e2 !important;
+  position: absolute;
+}
+
+.booking-box {
+  background: #f9e9e4 !important;
+  border-radius: 12px;
+}
+
+.date-text {
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.guest-btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: white;
+}
+
+.guest-btn:hover{
+  background-color: lightsalmon;
+}
+
+.booking-btn {
+  background: lightsalmon !important;
+  border: none;
+  font-size: 18px;
+}
+
+.svg-bg {
+  fill: black;
+}
+
+.button-abs {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.prev-btn {
+  left: 90%;
+}
+
+.next-btn {
+  left: 95%;
+}
+
+.svg-bg path {
+  fill: #000;
+}
+
+.style-font{
+  font-family: 'MASLITE', sans-serif;
+}
+
+.option-bg:hover{
+  background-color: lightsalmon;
+}
+
+@media (max-width: 991.98px) {
+  .hero-container {
+    height: auto;
+    top: 20%;
+  }
+
+  .hero-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .fill-color,
+  .link {
+    font-size: 16px;
+  }
+
+  .w-full {
+    width: 200px;
+  }
+
+  .hero-right {
+    margin-top: 20px;
+  }
+
+  .button-abs {
+    top: 5px;
+    right: 10px;
+  }
+
+  .prev-btn {
+    left: 80%;
+  }
+
+  .next-btn {
+    left: 90%;
+  }
+
+  .bed{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .logo {
+    width: 40px;
+  }
+
+  .web,
+  .w-full {
+    width: 180px;
+  }
+
+  .hero-container {
+    position: static;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .hero-title {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .hero-btn {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .home-img {
+    height: auto;
+  }
+
+  .hero-right {
+    margin-top: 24px;
+  }
+
+  .booking-box {
+    padding: 16px;
+  }
+
+  .fill-color,
+  .link {
+    font-size: 15px;
+  }
+
+  .button-abs {
+    top: 5px;
+    right: 5px;
+  }
+
+  .prev-btn {
+    left: 70%;
+  }
+
+  .next-btn {
+    left: 85%;
+  }
+
+    .bed{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 20px;
+  }
+
+  .guest-btn {
+    width: 26px;
+    height: 26px;
+    font-size: 18px;
+  }
+
+  .booking-btn {
+    font-size: 16px;
+  }
+
+    .bed{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 575.98px) {
+  .lang-switcher {
+    max-width: 80px;       
+    font-size: 12px;
+    justify-content: flex-end;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .lang-switcher { display: none; }
+}

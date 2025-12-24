@@ -1,0 +1,89 @@
+.heartfelt-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.heartfelt-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .heartfelt-image-container {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heartfelt-image-container {
+    height: 600px;
+  }
+}
+
+.heartfelt-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.heartfelt-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.heartfelt-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .heartfelt-title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heartfelt-title {
+    font-size: 36px;
+  }
+}
+
+.heartfelt-hours {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .heartfelt-hours {
+    font-size: 18px;
+  }
+}
+
+.heartfelt-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 2px solid;
+  color:  #F6CFDD;
+  border-color:  #F6CFDD;
+  background: transparent;
+}
+
+.heartfelt-button:hover{
+  color:  #2b1b1b !important;
+}
+
+.font-bg{
+    color: #F6CFDD;
+}
+

@@ -1,0 +1,32 @@
+.experience-img-wrapper {
+  width: 100%;
+  aspect-ratio: 3 / 4;       
+  overflow: hidden;
+}
+
+.experience-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.experience-img-wrapper img {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.experience-img-wrapper {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.experience-img-wrapper:hover {
+  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25); */
+  transform: translateY(-4px);
+}
+
+.experience-title {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #4a1c26;
+}

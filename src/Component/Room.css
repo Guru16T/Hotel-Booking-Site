@@ -1,0 +1,66 @@
+.rooms-hero {
+  background-color: #f5e4da;
+}
+
+.rooms-hero-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.rooms-title {
+  font-family: "Playfair Display", "Times New Roman", serif; 
+  font-size: 64px;
+  font-weight: 400;
+  color: #4a1c26;            
+  margin-bottom: 24px;
+}
+
+.rooms-subtitle {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #4a1c26;
+  margin: 0 auto 32px;
+}
+
+.rooms-icon {
+    width: 30px;
+    height: auto;
+    fill: #4a1c26;
+}
+
+.room-nav{
+      color: #4a1c26;
+}
+
+.fill-nav{
+    fill: #4a1c26;
+}
+
+.nav-size{
+    font-size: 14px;
+}
+
+.bg-light-pink {
+  background-color: #f5e4da;
+}
+
+.room-title {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: #4a1c26;
+}
+
+section.bg-light-pink p {
+  color: #4a1c26;
+}
+
+.btn-outline-secondary {
+  border-radius: 2;
+  border-color: lightsalmon;
+  color: #4a1c26;
+}
+
+.btn-outline-secondary:hover {
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+  color: #4a1c26;
+}

@@ -1,0 +1,15 @@
+.booking-section-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.booking-open {
+  transform: translateX(0%);
+}
+
+.booking-closed {
+  transform: translateX(-120%);
+}

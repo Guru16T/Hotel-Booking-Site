@@ -1,0 +1,86 @@
+.metting-bg{
+        background-color:  #f4dcd9;
+}
+
+.top-bg{
+    background-color: #401C26;
+    height: 130vh;
+}
+
+.meet-hall{
+    position: absolute;
+}
+
+.theme-overlay {
+    background-color: var(--theme-overlay-color, #262221);
+    opacity: var(--theme-overlay-opacity, .7);
+}
+
+.meet-link:hover{
+    text-decoration: underline;
+}
+
+.request-btn{
+    border-color: lightsalmon !important;
+    background-color: lightsalmon !important;
+}
+
+.fill-svg{
+    fill: #e7c0ce !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.btn-left{
+    color: #e7c0ce !important;
+    border: 2px solid lightsalmon !important;
+    border-color: #e7c0ce !important;
+}
+
+.btn-left:hover{
+    color: #262221 !important;
+    border-color: lightsalmon !important;
+    background-color: lightsalmon !important;
+}
+
+.btn-right{
+    border-color: #262221 !important;
+    border: 2px solid #262221 !important;
+}
+
+.btn-right:hover{
+    border-color: lightsalmon !important;
+    background-color: lightsalmon !important;
+}
+
+.ex-btn{
+    border: 2px solid lightsalmon !important;
+}
+
+.ex-btn:hover{
+    border-color: lightsalmon !important;
+    background-color: lightsalmon !important;
+}
+
+.arrow-move {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.arrow-btn:hover .arrow-move{
+    transform: translate(5px) scale(1.15);
+}
+
+.right-meet{
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+}
+
+.left-meet{
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+}
