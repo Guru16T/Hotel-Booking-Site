@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import BookingNavbar from "./Component/BookingNav";
 import Navbar from "./Component/Navbar";
-import 1 from "./assets/1.webp";
+import hom from "./assets/1.webp";
 
 function Home() {
 
@@ -225,7 +225,7 @@ function Home() {
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
-                            <img className="home-img object-fit-cover" src={1} alt="..." />
+                            <img className="home-img object-fit-cover" src={hom} alt="..." />
                         </div>
                         <div className="col-md-2"></div>
                     </div>
