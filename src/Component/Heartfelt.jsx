@@ -1,5 +1,6 @@
 import "./Heartfelt.css";
 import tower from '../assets/tower.webp'
+import Din from "../assets/2.webp"
 
 function Heartfelt() {
   return (
@@ -7,7 +8,7 @@ function Heartfelt() {
     <div className="heartfelt-container my-5">
       <div className="heartfelt-image-container">
         <img
-          src="https://i1.vrs.gd/roroshotellene/uploads/images/SE_ROROS_0424_7557.jpg"
+          src={Din}
           alt="Breakfast"
           className="heartfelt-image bed"
         />
